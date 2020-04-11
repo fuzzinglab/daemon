@@ -1,0 +1,22 @@
+{
+  "name": "@fuzzinglab/daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --harmony --experimental-specifier-resolution=node src/index.js"
+  },
+  "author": "fuzzinglab",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "apollo-server-koa": "^2.12.0",
+    "debug": "^4.1.1",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^4.0.7",
+    "koa": "^2.11.0",
+    "merge-graphql-schemas": "^1.7.7",
+    "supports-color": "^7.1.0"
+  }
+}
